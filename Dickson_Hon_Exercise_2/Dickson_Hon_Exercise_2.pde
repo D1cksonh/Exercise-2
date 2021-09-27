@@ -1,13 +1,19 @@
+float circleX;
+float circleY;
+
 void setup() {
- background(17,176,247);
- size(640,640);
- stroke(0,255,0);
- fill(0,255,0);
- rect(0,500,640,180);
+ size(640,360);
+ circleX = width/2;
+ circleY = 50;
 }
 
-void mouseClicked(){ // why you wont draw a square
-  stroke(255,222,0);
-  fill(255,222,0);
-  rect(mouseX,mouseY,50,50);
-} 
+void draw(){
+ background(17,176,247);
+ fill(255,0,0);
+ stroke(255,0,0);
+ ellipse(circleX,200,50,50);
+ rect(100,mouseY,50,50);
+ 
+ circleX = random(width); 
+ circleY = circleY + 1;
+}
