@@ -48,4 +48,5 @@ void draw(){
   ellipse(moveX-125,500,25,25);
   
   moveX = moveX + 5;
+  println(moveX);
 }
