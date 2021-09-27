@@ -6,7 +6,7 @@ float moveX = 0;
 
 void setup() {
  size(640,640,P2D);
- img = loadImage("ocean.jpg"); // image source https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScheJMHvK7Qk6NiIizf2V0PsS6vUK-qwQ0Hw&usqp=CAU
+ img = loadImage("ocean.jpg"); // Image source https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScheJMHvK7Qk6NiIizf2V0PsS6vUK-qwQ0Hw&usqp=CAU
 }
 
 void draw(){
